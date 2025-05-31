@@ -28,7 +28,14 @@ class Dev2funDraggableModule
     {
         global $APPLICATION;
 
-        if (strpos($APPLICATION->GetCurPage(), '/bitrix/admin/iblock_element_edit.php') === false) {
+//        if (strpos($APPLICATION->GetCurPage(), '/bitrix/admin/iblock_element_edit.php') === false) {
+//            return;
+//        }
+        $supportPages = [
+            '/bitrix/admin/iblock_element_edit.php',
+//            '/bitrix/admin/iblock_section_edit.php',
+        ];
+        if (!in_array($APPLICATION->GetCurPage(), $supportPages)) {
             return;
         }
 
