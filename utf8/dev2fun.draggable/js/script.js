@@ -284,12 +284,23 @@ function globalInitDragAndDrop(propertyId, propertyType = 'input') {
                 input = row.querySelector('input');
             }
 
+            // console.log()
+
             if (!input) {
                 return;
             }
 
+            let inputsAll = row.querySelectorAll('input')
+            let inputDescription
+            if (propertyType === 'select' && inputsAll.length) {
+                inputDescription = inputsAll[0]
+            } else if (inputsAll.length > 1) {
+                inputDescription = inputsAll[1]
+            }
+
             const name = input.name;
             let reg, replaceValue
+
             if (propertyType === 'select') {
                 reg = new RegExp(`PROP\\[${propertyId}\\]\\[.*?\\]\\[VALUE\\]`)
                 replaceValue = `PROP[${propertyId}][${identificators[identificatorsIndex]}][VALUE]`
@@ -298,9 +309,24 @@ function globalInitDragAndDrop(propertyId, propertyType = 'input') {
                 replaceValue = `PROP[${propertyId}][${identificators[identificatorsIndex]}]`
             }
             input.name = name.replace(reg, replaceValue);
+
+            if (inputDescription) {
+                let inputDescriptionName = inputDescription.name
+                reg = new RegExp(`PROP\\[${propertyId}\\]\\[.*?\\]\\[DESCRIPTION\\]`)
+                replaceValue = `PROP[${propertyId}][${identificators[identificatorsIndex]}][DESCRIPTION]`
+                inputDescription.name = inputDescriptionName.replace(reg, replaceValue);
+            }
+
             identificatorsIndex++;
         });
     }
+
+    // TODO: future release
+    // function checkKeyValueExists (className, keyName = 'VALUE') {
+    //     reg = new RegExp(`PROP\\[${propertyId}\\]\\[.*?\\]\\[${keyName}\\]`)
+    //     return reg.test(className)
+    //     // className.match()
+    // }
 
     // Обновление имен полей
     function updateInputNames() {
