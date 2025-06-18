@@ -38,10 +38,10 @@
 
 ## Donate
 
-|                   |                                                                    |
-|-------------------|--------------------------------------------------------------------|
-| Bank Card | [Visa/Mastercard/Mir/Other](https://www.tinkoff.ru/cf/36wVfnMf7mo) |
-| YooMoney          | [410011413398643](https://yoomoney.ru/to/410011413398643)                                                |
+|                    |                                                                    |
+|--------------------|--------------------------------------------------------------------|
+| Bank Card          | [Visa/Mastercard/Mir/Other](https://www.tinkoff.ru/cf/36wVfnMf7mo) |
+| YooMoney           | [410011413398643](https://yoomoney.ru/to/410011413398643)                                                |
 | Webmoney WMR (rub) | R218843696478                                                      |
 | Webmoney WMU (uah) | U135571355496                                                      |
 | Webmoney WMZ (usd) | Z418373807413                                                      |
@@ -49,9 +49,10 @@
 | Webmoney WMX (btc) | X740165207511                                                      |
 | Webmoney WML (ltc) | L718094223715                                                      |
 | Webmoney WMH (bch) | H526457512792                                                      |
-| PayPal            | [@darkfriend](https://www.paypal.me/darkfriend)                    |
-| Payeer            | P93175651                                                          |
-| Bitcoin           | 15Veahdvoqg3AFx3FvvKL4KEfZb6xZiM6n                                 |
-| Litecoin          | LRN5cssgwrGWMnQruumfV2V7wySoRu7A5t                                 |
-| Ethereum          | 0xe287Ac7150a087e582ab223532928a89c7A7E7B2                         |
-| BitcoinCash       | bitcoincash:qrl8p6jxgpkeupmvyukg6mnkeafs9fl5dszft9fw9w             |
+| PayPal             | [@darkfriend](https://www.paypal.me/darkfriend)                    |
+| Payeer             | P93175651                                                          |
+| USDT TRC20         | TSzHnDoVXKYwtxDn7K7PDTTFHw1xCKZvBB                                 |
+| Bitcoin            | 15Veahdvoqg3AFx3FvvKL4KEfZb6xZiM6n                                 |
+| Litecoin           | LRN5cssgwrGWMnQruumfV2V7wySoRu7A5t                                 |
+| Ethereum           | 0xe287Ac7150a087e582ab223532928a89c7A7E7B2                         |
+| BitcoinCash        | bitcoincash:qrl8p6jxgpkeupmvyukg6mnkeafs9fl5dszft9fw9w             |
